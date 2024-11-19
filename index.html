@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lk.css" />
+    <link rel="stylesheet" href="css/media.css" />
+   <!-- <link rel="stylesheet" href="css/media-lk.css" />-->
+    <link rel="stylesheet" href="css/date.css">
+    <title>Запись на приём</title>
+</head>
+<body>
+  <body>
+    <div class="container-main row">
+     
+        <aside class="col-lg-2 aside">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-lk flex-column fixed-left">
+            <div class="container-fluid container-fluid-lk">
+              <div class="col navbar-brand-lk">
+                <a class="navbar-brand" href="/"><img src="images/logo-lk.svg" style="max-width: 137px" alt="" /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="collapse-lk collapse align-items-start navbar-collapse flex-column" id="navbarSupportedContent">
+                <div class="d-flex align-items-center justify-content-between" id="settings-lk" style="padding: 10px 0 24px 0; width: 100%">
+                  <div class="col d-flex">
+                  <!--  <img class="user-img" src="/images/lk-user-photo.png" alt="" />-->
+                    <p class="fs-18" style="max-width: 105px; margin-bottom: 0; padding-left: 12px">Константин Винокуров</p>
+                  </div>
+                  <img src="images/settings-lk.png" id="settings-open" alt="" />
+                </div>
+                <ul class="navbar-nav flex-column me-auto mb-2 mb-lg-0">
+                  <li class="nav-item fs-18">
+                    <a class="nav-link nav-link-lk active d-flex align-items-center" aria-current="page" href="#"
+                      ><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M11.5711 1.14258H6.42829V6.92829H0.642578V12.0711H6.42829V17.8569H11.5711V12.0711H17.3569V6.92829H11.5711V1.14258Z"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Запись на прием</a
+                    >
+                  </li>
+
+                  <li class="nav-item mt-3">
+                    <a class="nav-link nav-link-lk active d-flex align-items-center" aria-current="page" href="/lk-medical-card.html"
+                      ><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.9879 16.4596L2.02132 10.0155C-1.77546 6.20131 3.76297 -1.18327 8.9879 4.79058C14.2128 -1.16585 19.8035 6.21873 15.9545 10.0155L8.9879 16.4596Z"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M4.51953 9.18262H6.48828L7.81417 6.65137L9.8231 11.3121L11.5508 9.18262H13.4794"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Медкарта</a
+                    >
+                  </li>
+
+                  <li class="nav-item mt-3">
+                    <a class="nav-link nav-link-lk active d-flex align-items-center" aria-current="page" href="lk-chat.html"
+                      ><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.714 2.10742H1.28544C0.930395 2.10742 0.642578 2.39524 0.642578 2.75028V13.036C0.642578 13.391 0.930395 13.6789 1.28544 13.6789H16.714C17.069 13.6789 17.3569 13.391 17.3569 13.036V2.75028C17.3569 2.39524 17.069 2.10742 16.714 2.10742Z"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M7.71345 13.6787L6.42773 16.893"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10.2852 13.6787L11.5709 16.893"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path d="M5.14258 16.8926H12.8569" stroke="#252525" stroke-width="1.28571" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M8.10408 4.33887C7.79918 4.33887 7.55201 4.58604 7.55201 4.89093V6.44365L5.99933 6.44365C5.69443 6.44365 5.44727 6.69081 5.44727 6.99571V8.78992C5.44727 9.09482 5.69443 9.34199 5.99933 9.34199H7.55201V10.8946C7.55201 11.1995 7.79918 11.4467 8.10408 11.4467H9.89829C10.2032 11.4467 10.4504 11.1995 10.4504 10.8946V9.34199H12.003C12.3079 9.34199 12.5551 9.09482 12.5551 8.78992V6.99571C12.5551 6.69081 12.3079 6.44365 12.003 6.44365L10.4504 6.44365V4.89093C10.4504 4.58604 10.2032 4.33887 9.89829 4.33887H8.10408Z"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      Онлайн-консультант</a
+                    >
+                  </li>
+
+                  <li class="nav-item mt-3">
+                    <a class="nav-link nav-link-lk active d-flex align-items-center" aria-current="page" href="lk-history-pay.html"
+                      ><svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M15.4283 13.9999V16.5713C15.4283 16.9123 15.2928 17.2393 15.0517 17.4804C14.8106 17.7215 14.4836 17.857 14.1426 17.857H1.92829C1.5873 17.857 1.26027 17.7215 1.01916 17.4804C0.778037 17.2393 0.642578 16.9123 0.642578 16.5713V6.92843C0.642578 4.79819 2.36948 3.07129 4.49972 3.07129H12.8569V6.28557"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M16.7151 10.1426H12.2151C11.8601 10.1426 11.5723 10.4304 11.5723 10.7854V13.3569C11.5723 13.7119 11.8601 13.9997 12.2151 13.9997H16.7151C17.0702 13.9997 17.358 13.7119 17.358 13.3569V10.7854C17.358 10.4304 17.0702 10.1426 16.7151 10.1426Z"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15.4286 10.1433V7.57185C15.4286 7.23085 15.2931 6.90383 15.052 6.66271C14.8109 6.42159 14.4839 6.28613 14.1429 6.28613H12.8571H4.5"
+                          stroke="#252525"
+                          stroke-width="1.28571"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      История платежей</a
+                    >
+                  </li>
+                </ul>
+                <div class="lk-callme lk-callme-mobile d-flex flex-column align-items-start">
+                  <img src="images/lk-callme-icon.svg" alt="#" />
+                  <p class="text-secondary fs-18 mt-4">
+                    Помощь нужна сейчас? <br />
+                    Звоните на номер
+                  </p>
+                  <a href="tel:+603" class="text-primary fs-18 onset-medium text-decoration-none">603</a>
+                  <a href="tel:+78563032303" class="text-primary fs-18 onset-medium mt-1 text-decoration-none">+7 (856) 303-23-03</a>
+                  <a href="tel:+79490999309" class="text-primary fs-18 onset-medium mt-1 text-decoration-none">+7 (949) 099-93-03</a>
+                  <span class="text-secondary fs-12 mt-3">Круглосуточная запись</span>
+                </div>
+                <button
+                  class="d-block btn btn-outline-primary w-100"
+                  id="lk-exit"
+                  style="padding: 12px 0; border: solid 1px #d94c42; color: #d94c42; margin-top: 15px"
+                >
+                  <img src="images/lk-user-exit.svg" alt="" /> Выйти из личного кабинета
+                </button>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-end align-items-center h-100 w-100 dn-mobile">
+              <div class="lk-callme d-flex flex-column align-items-start">
+                <img src="images/lk-callme-icon.svg" alt="#" />
+                <p class="text-secondary fs-18 mt-4">
+                  Помощь нужна сейчас? <br />
+                  Звоните на номер
+                </p>
+                <a href="tel:+603" class="text-primary fs-18 onset-medium text-decoration-none">603</a>
+                <a href="tel:+78563032303" class="text-primary fs-18 onset-medium mt-1 text-decoration-none">+7 (856) 303-23-03</a>
+                <a href="tel:+79490999309" class="text-primary fs-18 onset-medium mt-1 text-decoration-none">+7 (949) 099-93-03</a>
+                <span class="text-secondary fs-12 mt-3">Круглосуточная запись</span>
+              </div>
+              <div class="d-flex align-items-center justify-content-between" style="border-top: 1px solid #ebeff6; padding: 24px 44px; width: 100%">
+                <div class="col d-flex">
+                 <!-- <a href="lk-profile.html"><img class="user-img" src="/images/lk-user-photo.png" alt="" /></a>-->
+                  <p class="fs-18" style="max-width: 105px; margin-bottom: 0; padding-left: 12px">Константин Винокуров</p>
+                </div>
+                <img src="images/lk-user-exit.svg" alt="" />
+              </div>
+            </div>
+          </nav>
+        </aside>
+	
+	<main class="main-date col-lg-10">
+	<div class="write-date_time">
+		
+			 <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
+                  <ol class="breadcrumb onset-regular fs-14">
+                    <li class="breadcrumb-item"><a href="/">Запись на приём</a></li>
+                    <li class="breadcrumb-item">
+                      <a href="/services.html">Иванов Сергей Александрович</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Выбор даты и времени</li>
+                  </ol>
+                </nav>
+                <h1 class="onset-bold pt-3">
+                      
+                 
+                  <img src="images/arrow.png">Выбор даты и времени
+                </h1>
+			<div class="row">
+				<div class="foto-wrapper col-lg-5">
+					<img src="images/data-foto.png">
+					<h2>Иванов Сергей Александрович</h2>
+					<p>Невролог</p>
+				</div>
+
+     
+ <!--adapt-->
+      <div class="control">
+         <div class="control-data">
+          <div>
+            <p class="control-text">Дата</p>
+            <p class="record__date-item1"></p>
+          </div>
+          <img src="images/icon-data.png">
+       </div>
+        <div class="control-time">
+             <div>
+            <p class="control-text">Время</p>
+            <p class="record__date-item2"></p>
+          </div>
+          <img src="images/icon-time.png">
+        </div>
+        <button class="control__button" data-bs-toggle="modal" data-bs-target="#controlModal">Записаться на приём</button>
+         <form class="control-form">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Я принимаю условия <span>политики конфиденциальности</span> и даю согласие на обработку <span>персональных данных</span></label>
+          </form>
+           </div>
+
+    <!----Modal------>
+     <div class="modal fade" id="controlModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="btn btn-secondary btn-top" data-bs-dismiss="modal"></button>
+        <h2 class="modal-control-title">Дата</h2>
+      </div>
+      <div class="modal-body">
+          <div class="calendar-wrapper">
+            <button id="btnPrev1" class="calendar-modal-button-1" type="button"><img src="images/calendar-arrow.png"></button>
+            <button id="btnNext1" class="calendar-modal-button-2" type="button"><img src="images/calendar-arrow1.png" ></button>
+            <div id="divCalendar"></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn control__button" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#timeModal">Применить</button>
+
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---->
+
+      <div class="modal fade" id="timeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="btn btn-secondary btn-top" data-bs-dismiss="modal"></button>
+           <h2 class="modal-control-title">Выберите время</h2>
+       
+      </div>
+      <div class="modal-body">
+          <div class="time__wrapper time__wrapper-2">
+            
+             <div class="time-items items-time">
+                   <div class="time__td">17:00</div>
+                   <div class="time__td">17:15</div>
+                   <div class="time__td">17:30</div>
+                   <div class="time__td">17:45</div>
+                   <div class="time__td">18:00</div>
+                   <div class="time__td">18:15</div>
+                   <div class="time__td">18:30</div>
+                   <div class="time__td">18:45</div>
+                   <div class="time__td">19:00</div>
+                   <div class="time__td">19:15</div>
+                   <div class="time__td">19:30</div>
+              </div>    
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn  control__button" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#resultModal">Применить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---->
+
+<div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn btn-secondary btn-top" data-bs-dismiss="modal"></button>
+        <h2 class="modal-control-title">Запись на приём</h2>
+      </div>
+      <div class="modal-body">
+         <div class="result-name">
+           <img src="images/foto.png" class="result-foto" alt="">
+           <div class="result-name__wrapper">
+             <h3>Иванов<br> Сергей Александрович</h3>
+             <p>Невролог</p>
+           </div>
+         </div>
+           <div class="result-date">
+             <p><span class="record__date-item1"></span><span class="record__date-item2"></span></p>
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Изменить</button>
+           </div>
+           <div class="result-address">
+            <div>
+              <p class="result-address-1">г.Донецк, ул.Калужская, д.16а</p>
+              <p class="result-address-2">Каб. 131</p>
+            </div>
+            <a href="#">Карта</a> 
+           </div>
+           <div class="result-content">
+             <p>Напомнить</p>
+              <select class="form-select" aria-label="Пример выбора по умолчанию">
+              <option selected>За сутки</option>
+              <option value="1">За час</option>
+              <option value="2">За 2 часа</option>
+              <option value="3">За 6 часов</option>
+            </select>
+            <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    По почте
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    По СМС
+  </label>
+
+</div>
+</div>
+
+     <button type="button" class="btn  control__button" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#Modal">Применить</button>
+         </div>
+      </div>
+      <div class="modal-footer">
+      
+      </div>
+    </div>
+  </div>
+  <!---->
+
+       
+
+				<div class="calendar-time-wrapper col-lg-7">
+
+          <div class="calendar-wrapper calendar-1">
+            <button id="btnPrev" type="button"><img src="images/calendar-arrow.png"></button>
+            <button id="btnNext" type="button"><img src="images/calendar-arrow1.png"></button>
+            <div id="divCal"></div>
+          </div>
+					<div class="time__wrapper time__wrapper-1">
+             <h3>Выберите время</h3>
+              <div class="time-items">
+                   <div class="time__td">17:00</div>
+                   <div class="time__td">17:15</div>
+                   <div class="time__td">17:30</div>
+                   <div class="time__td">17:45</div>
+                   <div class="time__td">18:00</div>
+                   <div class="time__td">18:15</div>
+                   <div class="time__td">18:30</div>
+                   <div class="time__td">18:45</div>
+                   <div class="time__td">19:00</div>
+                   <div class="time__td">19:15</div>
+                   <div class="time__td">19:30</div>
+              </div> 
+
+          </div>
+            <div class="time-footer">
+        <form class="time-form" action="#">
+          <button class="time-button" data-bs-toggle="modal" data-bs-target="#signUp">Записаться</button>
+
+<!---->
+          <div class="modal fade" id="signUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content modal-record">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Запись на приём</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row record">
+          <div class="record__foto col-4">
+            <img src="images/record-foto.png" alt="фото">
+          </div>
+          <div class="record__content col-8">
+            <h2>Иванов Сергей Александрович</h2>
+            <p class="record__content-text">Невролог</p>
+            <div class="record__date">
+              <p class="record__date-content">
+                <span class="record__date-item1"></span>
+                <spam class="record__date-item2"></spam>
+              </p>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Изменить</button>
+            </div>
+            <div class="record__address">
+              <div class="record__address-content">
+                <p class="record__address-text">г.Донецк, ул.Калужская, д.16а</p>
+                <p class="record__address-text1">каб. 131</p>
+              </div>
+              <a class="record__address-link" href="#">Посмотреть на карте</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="information row">
+          <div class="information__text col-2">
+            <p>Напомнить</p>
+          </div>
+          <div class="information__date col-3">
+            <select class="form-select" aria-label="Пример выбора по умолчанию">
+              <option selected>За сутки</option>
+              <option value="1">За час</option>
+              <option value="2">За 2 часа</option>
+              <option value="3">За 6 часов</option>
+            </select>
+            <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    По почте
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    По СМС
+  </label>
+</div>
+          </div>
+          
+          
+          <div class="col-3"></div>
+          <div class="information__button col-4">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Перейти к оплате</button>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!---->
+          <div class="input-wrapper">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Я принимаю условия <span>политики конфиденциальности</span> и даю согласие на обработку <span>персональных данных</span></label>
+          </div>
+        </form>
+      </div>
+				</div>
+      
+
+
+
+		</div>
+	</div>
+	</main>
+	
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/calendar.js"></script>
+</body>
+</html>

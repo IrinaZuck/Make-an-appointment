@@ -1,0 +1,151 @@
+@media screen and (max-width: 991px) {
+  .lk-main {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .search-recaption {
+    display: none;
+  }
+  .lk-send-message {
+    margin: 0 10px;
+    position: static !important;
+    max-width: 95%;
+    display: block;
+    border-radius: 12px !important;
+    padding: 12px 0 !important;
+  }
+  .lk-send-message::placeholder {
+    padding-left: 20px;
+  }
+  .chat {
+    padding-bottom: 0px;
+  }
+  .lk-send-button {
+    padding-left: 8px;
+    position: static !important;
+  }
+
+  .search-recaption-label {
+    position: static !important;
+  }
+  .lk-search {
+    margin-right: 0;
+  }
+  .main-doctors-price {
+    text-align: right;
+  }
+  .mobile-lk-data {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .mobile-lk-button {
+    display: block;
+  }
+  .footer-mobile,
+  .mobile-lk-button,
+  .mobile-lk-info {
+    display: block;
+  }
+  .main-doctors {
+    margin: 0 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e5ea !important;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .main-lk {
+    padding: 0 10px;
+    padding-top: 70px;
+    margin: 0;
+    padding-bottom: 80px;
+  }
+  .lk-send-message {
+    padding-left: 0 !important;
+  }
+  .lk-send-button {
+    right: 20px !important;
+  }
+  .footer-mobile {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -4px 16px 0 rgba(37, 37, 37, 0.06);
+    background: #fff;
+  }
+  .footer-mobile ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px 0px 24px;
+  }
+  .footer-mobile ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #636a70;
+  }
+
+  .navbar-lk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    z-index: 3;
+  }
+  #lk-exit {
+    display: block !important;
+  }
+  .lk-callme-mobile {
+    display: flex !important;
+  }
+  .lk-callme {
+    margin: 0;
+  }
+
+  #settings-lk {
+    display: flex !important;
+  }
+
+  .container-fluid-lk {
+    align-items: flex-start !important;
+    flex-wrap: nowrap !important;
+  }
+  .collapse-lk {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .collapse-lk ul li {
+    margin-top: 0 !important;
+  }
+  .navbar-collapse {
+    margin-top: 0;
+    border-top: none;
+    align-items: flex-start;
+  }
+  .navbar-brand-lk {
+    position: relative;
+    z-index: 3;
+    padding: 10px 0;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .aside {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 0;
+    height: auto;
+    box-shadow: 4px 2px 12px 0 rgba(37, 37, 37, 0.06);
+    background: #fff;
+  }
+  .reception-btn {
+    display: flex !important;
+  }
+  .profile-cards {
+    margin-right: 10px !important;
+  }
+}

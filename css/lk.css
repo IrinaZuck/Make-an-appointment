@@ -1,0 +1,245 @@
+#settings-lk {
+  display: none !important;
+}
+.page-lk {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.appointment-card {
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 20px 0 20px;
+	background-color: #006adc;
+	border-radius: 20px;
+}
+.appointment-cards {
+	display: flex;
+	justify-content: space-between;
+}
+.appointment-card-right {
+	max-width: 402px;
+}
+.main-lk {
+  margin: 16px 0;
+  padding-left: 30px;
+  margin-right: 60px;
+}
+.lk-search {
+  margin-right: 60px;
+}
+
+.lk-main {
+  display: flex;
+}
+.navbar-expand-lg {
+  align-items: flex-start;
+}
+.navbar-lk {
+  background-color: #fff !important;
+  height: 100%;
+}
+.navbar-brand-lk {
+  margin-top: 55px;
+}
+
+.container-fluid-lk {
+  display: flex;
+  flex-direction: column;
+}
+.collapse-lk {
+  margin-top: 88px;
+}
+.nav-item .nav-link-lk {
+  transition: ease-in-out 0.2s;
+}
+.nav-link-lk svg {
+  margin-right: 10px;
+}
+.nav-item .nav-link-lk svg path {
+  stroke: #252525;
+}
+.nav-item .nav-link-lk:hover {
+  color: #006adc;
+}
+.nav-item .nav-link-lk:hover svg path {
+  stroke: #006adc;
+}
+.aside {
+  height: 948px;
+  margin: 16px 0 16px 16px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 2px 12px 0 rgba(37, 37, 37, 0.06);
+  background: #fff;
+}
+.lk-callme {
+  border: 1px solid #e0e5ea;
+  border-radius: 12px;
+  padding: 28px 20px;
+  margin-top: 112px;
+  margin-bottom: 72px;
+}
+#lk-exit,
+.lk-callme-mobile {
+  display: none !important;
+}
+.menu {
+  display: none; /* Скрываем меню по умолчанию */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+.settings-menu-title {
+  margin: 0 auto;
+}
+.settings-menu-link {
+  background: none;
+  border: none;
+}
+.settings-menu-popup-bg,
+.personal-data-popup-bg,
+.adres-popup-bg {
+  height: 100%;
+  left: -100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 52;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.personal-data-popup-bg,
+.adres-popup-bg {
+  z-index: 53;
+}
+
+.menu {
+  height: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 53;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.settings-menu-popup {
+  z-index: 4;
+  border-radius: 16px 16px 0 0;
+  padding: 33px 24px 24px 24px;
+  transition: ease-in-out 0.2s;
+  height: 49%;
+  background-color: #fff;
+  margin-top: 90px;
+}
+.personal-data-popup,
+.adres-popup {
+  z-index: 4;
+  border-radius: 16px 16px 0 0;
+  transition: ease-in-out 0.2s;
+  height: 49%;
+  background-color: #fff;
+  margin-top: 30px;
+}
+.settings-menu-popup-bg.open,
+.personal-data-popup-bg.open,
+.adres-popup-bg.open {
+  left: 0;
+}
+.btn-exit-personal-data {
+  display: flex;
+  background: none;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main-doctors {
+  transition: ease-in-out 0.2s;
+  border-bottom: 1px solid #ebeff6;
+  padding: 16px 0;
+}
+.main-pay {
+  border-bottom: 1px solid #ebeff6;
+  padding: 16px 0;
+}
+.main-doctors:hover {
+  background-color: #fff;
+}
+.main-doctors-calendar {
+  padding: 8px 16px;
+  border: 1px solid #e0e5ea;
+  border-radius: 100px;
+}
+.main-doctors-calendar img {
+  margin-right: 8px;
+}
+.profile-cards {
+  margin-right: 20px;
+}
+
+.profile-card {
+  overflow: hidden;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 28px;
+}
+.paid a {
+  border-radius: 100px;
+  padding: 8px 24px;
+  width: 132px;
+  height: 36px;
+  background: rgba(52, 199, 89, 0.12);
+  color: #34c759;
+}
+textarea {
+  height: 120px;
+  resize: none;
+}
+.textarea-clear {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.medical-card {
+  margin: 10px;
+  padding: 28px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.medical-card-icon {
+  display: none !important;
+}
+
+.medical-card:hover .medical-card-icon {
+  display: flex !important;
+}
+.search-recaption {
+  padding: 12px 0px;
+}
+.search-recaption::placeholder {
+  padding-left: 40px !important;
+}
+
+.menu {
+  display: none; /* Скрываем меню по умолчанию */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.footer-mobile,
+.mobile-lk-button,
+.mobile-lk-info {
+  display: none;
+}
+
+.chat {
+  min-height: 849px;
+  border: 1px solid #ebeff6;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 12px 0px 12px 0px;
+}

@@ -1,0 +1,149 @@
+@media screen and (max-width: 1219px) {
+}
+
+@media screen and (max-width: 991px) {
+  .main {
+    padding-top: 70px;
+  }
+
+  .cards-service {
+    position: static;
+    flex-wrap: wrap;
+  }
+  .navbar-brand img {
+    max-width: 60px;
+  }
+  .navbar-collapse {
+    padding-top: 40px;
+    border-top: 1px solid #e0e5ea;
+  }
+  .collapsing {
+    height: 0;
+    overflow: hidden;
+  }
+  .nav-item a {
+    padding: 15px 0;
+  }
+  .container {
+    padding: 0 24px;
+  }
+  .page-title {
+    padding: 40px 24px 80px 24px;
+  }
+  .assistance {
+    padding: 40px 24px 60px 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .check-up-img {
+    padding-top: 20px;
+    position: static;
+    max-width: 96%;
+    margin-bottom: -150px;
+  }
+  .phone-header-mobile {
+    flex-direction: column;
+    align-items: flex-start !important;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #e0e5ea;
+  }
+  .lk {
+    width: 100%;
+    margin-left: 0;
+    padding: 12px 0;
+    margin: 32px 0;
+  }
+  .number-mobile {
+    display: block;
+  }
+  .main-img {
+    max-width: 375px;
+  }
+  .comfort {
+    padding-top: 80px;
+  }
+  .options-icon {
+    display: flex !important;
+  }
+  .dn-mobile {
+    display: none !important;
+  }
+  .bar,
+  .swiper-pagination-nubmer {
+    display: none;
+  }
+  .check-up {
+    padding-top: 120px;
+  }
+  .check-up-body {
+    padding: 24px 24px 0 24px;
+  }
+  .check-up-btn {
+    width: 100%;
+  }
+  .slider-equipment {
+    height: 944px;
+  }
+  .slider-equipment h2 {
+    padding-top: 80px;
+  }
+  .news {
+    padding-top: 120px;
+  }
+  .card-service {
+    margin: 0;
+  }
+  iframe {
+    height: 345px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .card-service {
+    width: 100%;
+  }
+  .reasons-btn {
+    width: 100%;
+  }
+  .reasons-btn .card-body .btn-outline-primary {
+    width: 100%;
+    padding: 14px 0;
+    background: #006adc !important;
+    color: #fff !important;
+  }
+
+  .direction-img {
+    display: none;
+  }
+  .direction a {
+    width: 100%;
+    padding: 16px 0;
+  }
+  .assistance {
+    position: relative;
+  }
+  .mySwiper .swiper-wrapper {
+    position: absolute;
+    height: 770px;
+    bottom: 0;
+  }
+  .sign,
+  .reception {
+    display: block;
+    position: absolute;
+    padding: 14px 0;
+    bottom: 20px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    max-width: 90%;
+    width: 90%;
+  }
+  .reception {
+    bottom: 50px;
+  }
+  .bg-mobile-none {
+    background-image: none;
+    width: 100%;
+  }
+}
